@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    box-shadow: 10px;
+}
+body {
+    background-color: hsl(204, 43%, 93%);
+    line-height: 1.6rem;
+    font-family: Karla, sans-serif;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.main_container {
+    margin: 17.5vh auto;
+    overflow: hidden;
+    padding: 0;
+    background-color: white;
+    height: 65vh;
+    width: 40vw;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 13%);
+}
+.upper_container {
+    height: 45%;
+    width: 40vw;
+}
+.lower_container {
+    height: 55%;
+    display: flex;
+    border-radius: 10px;
+}
+.lower_left {
+    width: 50%;
+    background-color: hsl(179, 62%, 43%);
+}
+.lower_right {
+    width: 50%;
+    background-color: hsla(179, 62%, 43%, 85%);
+}
+h1 {
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding: 2rem 2rem 1rem 2rem;
+    color:hsl(179, 62%, 43%)
+}
+p {
+    font-size: 0.8rem;
+    line-height: 1.5rem;
+    font-weight: normal;
+    padding-left: 2rem;
+    color: hsl(218, 22%, 67%);
+}
+.attribution {
+    width: 100%;
+    position: absolute;
+    padding-left: 0;
+    color: black;
+    bottom: 0;
+}
+.upper_container h2 {
+    font-weight: 700;
+    font-size: 0.9rem;
+    padding: 0;
+    padding-bottom: 0.5rem;
+    padding-left: 2rem;
+    color: hsl(71, 73%, 54%)
+}
+.lower_container h1, h2, h3, h4{
+    font-size: 1rem;
+    font-weight: bold;
+    padding-top: 2rem;
+    padding-left: 2rem;
+    padding-bottom: 1.2rem;
+    color: hsl(204, 43%, 93%);
+}
+.lower_container p {
+    font-size: 0.7rem;
+    line-height: 1.5rem;
+    font-weight: normal;
+    padding-left: 2rem;
+    color: hsl(204, 43%, 93%); 
+}
+.lower_right h2 {
+    padding-bottom: 1rem;
+}
+.left_inner {
+    display: flex;
+    align-self: center;
+}
+.dollar {
+    color: white;
+    font-weight: bold;
+    font-size: 1.7rem;
+    padding-left: 2rem;
+}
+.rest { 
+    color: rgba(255, 255, 255, 40%);
+    font-size: 0.8rem;
+    padding-left: 0.8rem;
+
+}
+.lower_right p {
+    line-height: 1rem;
+    color: rgba(255, 255, 255, 65%);
+}
+.lower_left p {
+    margin: 0;
+    padding-top: 0.2rem;
+    font-size: 0.8rem;
+    color: rgba(255, 255, 255, 70%);
+}
+.left_space {
+    margin: auto;
+    display: flex;
+    padding: 1.5rem 2.2rem;
+}
+.btn {
+    background: hsl(71, 73%, 54%);
+    border: none;
+    border-radius: 5px;
+    color: #ffffff;
+    font-size: 12px;
+    padding: 12px 75px 12px 75px;
+    margin: auto;
+    cursor: pointer;
+  }
